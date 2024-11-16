@@ -1,6 +1,6 @@
-use rust_clean_architecture_api_project::infrastructure::web::run;
 use dotenv::dotenv;
 use env_logger::Env;
+use rust_clean_architecture_api_project::infrastructure::web::run;
 
 #[actix_web::main]
 async fn main() -> std::io::Result<()> {

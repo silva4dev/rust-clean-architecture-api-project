@@ -11,7 +11,7 @@ mod tests {
             name: "John Doe".to_string(),
             email: Some("johndoe@example.com".to_string()),
             phone: "(19)99281-9212".to_string(),
-            address: "XYZ ABC Tower".to_string()
+            address: "XYZ ABC Tower".to_string(),
         };
 
         assert_eq!(sut.id, 1);
